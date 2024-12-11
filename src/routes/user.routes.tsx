@@ -9,10 +9,10 @@ import { SettingsPage } from '../pages/SettingsPage';
 import { BillingPage } from '../pages/BillingPage';
 
 export const userRoutes = [
-  <Route key="dashboard" path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />,
-  <Route key="kb" path="/knowledge-base" element={<ProtectedRoute><KnowledgeBasePage /></ProtectedRoute>} />,
-  <Route key="agents" path="/agents" element={<ProtectedRoute><AgentsPage /></ProtectedRoute>} />,
-  <Route key="analytics" path="/analytics" element={<ProtectedRoute><AnalyticsPage /></ProtectedRoute>} />,
-  <Route key="settings" path="/settings" element={<ProtectedRoute><SettingsPage /></ProtectedRoute>} />,
-  <Route key="billing" path="/billing" element={<ProtectedRoute><BillingPage /></ProtectedRoute>} />,
+  <Route key="dashboard" path="dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />,
+  <Route key="kb" path="knowledge-base" element={<ProtectedRoute><KnowledgeBasePage /></ProtectedRoute>} />,
+  <Route key="agents" path="agents" element={<ProtectedRoute><AgentsPage /></ProtectedRoute>} />,
+  <Route key="analytics" path="analytics" element={<ProtectedRoute><AnalyticsPage /></ProtectedRoute>} />,
+  <Route key="settings" path="settings" element={<ProtectedRoute><SettingsPage /></ProtectedRoute>} />,
+  <Route key="billing" path="billing" element={<ProtectedRoute><BillingPage /></ProtectedRoute>} />,
 ];
